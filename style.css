@@ -73,9 +73,9 @@ h1{
 }
 @keyframes colorAnimation {
   0%   {background-color:rgb(223, 71, 71); left:0px; top:0px;}
-  25%  {background-color:rgb(19, 160, 158); left:200px; top:0px;}
-  50%  {background-color:blue; left:200px; top:200px;}
-  75%  {background-color:rgb(53, 166, 53); left:0px; top:200px;}
+  25%  {background-color:rgb(19, 160, 158); left:6rem; top:0px;}
+  50%  {background-color:blue; left:6rem; top:6rem;}
+  75%  {background-color:rgb(53, 166, 53); left:0px; top:6rem;}
   100% {background-color:rgb(178, 28, 118); left:0px; top:0px;}
 }
 h3::first-letter{
@@ -215,8 +215,31 @@ background-color:#63acff;
  font-weight: 900;
  font-size: 25px;
 }
-@media(max-width:400){
+@media(max-width:400px){
    img{
 display:none;
     }
+    nav ul  {
+        position: relative;
+        top:80px;
+        left:20px;
+
+    }
+    h3{
+        font-size: 25px;
+ 
+    }
+    span{
+        font-size: 25px; 
+    }
+    #element{
+           font-size: 25px; 
+    }
+    #project{
+        font-size: 15px;
+    }
+
+}
+table{
+    color:white;
 }
