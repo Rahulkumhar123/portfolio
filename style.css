@@ -217,7 +217,8 @@ background-color:#63acff;
 }
 @media(max-width:400px){
    img{
-display:none;
+height:4rem;
+width:3rem;
     }
     nav ul  {
         position: relative;
@@ -226,7 +227,10 @@ display:none;
 
     }
     h3{
+        
         font-size: 25px;
+       margin-top:20px;
+        
  
     }
     span{
