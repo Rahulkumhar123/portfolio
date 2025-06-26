@@ -1,3 +1,4 @@
+
 *{
     font-family: 'poppins' sans-serif;
     margin:0;
@@ -139,7 +140,7 @@ body{
 
    font-size: 20px;
    border-radius: 20px;
-   padding:20px  ;
+
    margin:10px;
        box-shadow: 5px 5px 8px rgb(155, 155, 128);
 }
@@ -150,8 +151,8 @@ body{
     width:100%;
     margin-left: 20px;;
   background-color:rgb(0,0,0,0.5);
-   position: absolute;
- top:800px;
+position: absolute;
+ top:2000px;
  left:0;
 
    font-size: 20px;
@@ -165,10 +166,11 @@ body{
     width: 100%;
   background-color:rgb(0,0,0,0.5);
    position: absolute;
-top:1100px;
+top:1300px;
+   padding:40px  ;
    font-size: 20px;
    border-radius: 20px;
-   padding-left: 20px;
+
    margin-left: 20px;
    
 
@@ -190,7 +192,7 @@ background-color:#63acff;
     width: 100%;
   background-color:rgb(0,0,0,0.5);
    position: absolute;
-top:1500px;
+top:2500px;
 left:0;
    font-size: 20px;
    border-radius: 20px;
@@ -217,8 +219,9 @@ background-color:#63acff;
 }
 @media(max-width:400px){
    img{
-height:4rem;
-width:3rem;
+
+    height: 4rem;
+    width: 3rem;
     }
     nav ul  {
         position: relative;
@@ -227,10 +230,8 @@ width:3rem;
 
     }
     h3{
-        
         font-size: 25px;
-       margin-top:20px;
-        
+        margin-top:20px;
  
     }
     span{
